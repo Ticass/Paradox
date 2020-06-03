@@ -1,0 +1,35 @@
+<script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+      <header>
+        <title>Paradox Connection Page</title>
+      </header>
+
+
+      <div class="bg-image"></div>
+
+
+<div class="bg-text connection">
+<h1 class="ch1">CONNECTION AU SERVEUR</h1>
+      <button id="test" onclick="connect()">Se Connecter</button>
+  </div>
+
+
+
+
+  <script>
+      function connect(){
+          $('#test').on('click', function(){
+            window.open('fivem://connect/51.210.52.220')
+          });
+      }
+
+  </script>
+
+  
